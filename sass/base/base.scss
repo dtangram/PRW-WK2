@@ -1,0 +1,141 @@
+*{
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	color: $colorBlack;
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+	position: relative;
+}
+
+
+
+/* TYPOGRAPHY ================================== */
+h1, h2{
+  font-weight: $fontWeightBold;
+	text-transform: capitalize;
+}
+
+p{
+  font-size: .8em;
+}
+
+ul{
+  list-style: none;
+}
+
+.ContactList{
+  background: $colorBlue;
+  border-radius: 8px;
+  height: 500px;
+  @extend %center-element;
+  padding: 3%;
+  top: 0;
+  width: 1000px;
+}
+
+// background: url(../img/background.jpg) no-repeat 0 0 / cover;
+
+
+
+/* HEADER ================================== */
+header{
+  height: 60px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+
+  h1{
+    font-size: 2em;
+  }
+}
+
+
+.add{
+  padding-bottom: 20px;
+
+  h2{
+    @extend %center-element;
+    text-align: center;
+  }
+
+  form{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    padding: 1%;
+
+    label{
+      margin-right: 10px;
+    }
+
+    input{
+      height: 15px;
+      margin-bottom: 15px;
+      margin-right: 20px;
+      padding: 10px 1%;
+
+      &:focus{
+        border: solid 1px $colorOrange;
+      }
+    }
+
+    p{
+      font-size: 1em;
+      margin-bottom: 15px;
+    }
+
+    .btn{
+      background: $colorOrange;
+      bottom: 30px;
+      @extend %center-element;
+      color: $colorWhite;
+      cursor: pointer;
+      padding: 10px 0;
+      width: 100px;
+    }
+  }
+}
+
+
+
+.currExp{
+  background: $colorWhite;
+  padding: 10px;
+  width: 100%;
+
+  h2{
+    margin-bottom: 10px
+  }
+
+  article{
+    ul{
+      margin-bottom: 10px;
+
+      li{
+        margin-bottom: 10px;
+
+        span{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+
+footer{
+  margin-top: 10px;
+  text-align: center;
+}

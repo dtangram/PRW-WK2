@@ -1,0 +1,93 @@
+.ContactList, .add h2, .add form .btn {
+  margin: 0 auto; }
+
+* {
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #000;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  position: relative; }
+
+/* TYPOGRAPHY ================================== */
+h1, h2 {
+  font-weight: bold;
+  text-transform: capitalize; }
+
+p {
+  font-size: .8em; }
+
+ul {
+  list-style: none; }
+
+.ContactList {
+  background: #088AC4;
+  border-radius: 8px;
+  height: 500px;
+  padding: 3%;
+  top: 0;
+  width: 1000px; }
+
+/* HEADER ================================== */
+header {
+  height: 60px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  text-align: center; }
+  header h1 {
+    font-size: 2em; }
+
+.add {
+  padding-bottom: 20px; }
+  .add h2 {
+    text-align: center; }
+  .add form {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    padding: 1%; }
+    .add form label {
+      margin-right: 10px; }
+    .add form input {
+      height: 15px;
+      margin-bottom: 15px;
+      margin-right: 20px;
+      padding: 10px 1%; }
+      .add form input:focus {
+        border: solid 1px #FF7F50; }
+    .add form p {
+      font-size: 1em;
+      margin-bottom: 15px; }
+    .add form .btn {
+      background: #FF7F50;
+      bottom: 30px;
+      color: #FFF;
+      cursor: pointer;
+      padding: 10px 0;
+      width: 100px; }
+
+.currExp {
+  background: #FFF;
+  padding: 10px;
+  width: 100%; }
+  .currExp h2 {
+    margin-bottom: 10px; }
+  .currExp article ul {
+    margin-bottom: 10px; }
+    .currExp article ul li {
+      margin-bottom: 10px; }
+      .currExp article ul li span {
+        margin-right: 10px; }
+
+footer {
+  margin-top: 10px;
+  text-align: center; }
